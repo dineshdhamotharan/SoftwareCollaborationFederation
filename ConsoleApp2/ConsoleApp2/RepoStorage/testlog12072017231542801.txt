@@ -1,0 +1,7 @@
+
+    constructing instance of Test code
+    Production code - TestedLib
+    Testing Multiplication: 20*10:Expected result: 200  Actual result: 220
+
+  test failed
+------------------------------------------------

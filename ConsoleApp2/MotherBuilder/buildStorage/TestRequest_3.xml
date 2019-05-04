@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TestRequest>
+  <author>Dinesh</author>
+  <tests>
+    <TestElement>
+      <testName>TestCase1</testName>
+      <testDriver>testdriver1.cs</testDriver>
+      <testCodes>
+        <string>testcode1.cs</string>
+        <string>Interface1.cs</string>
+        <string>dep1.cs</string>
+        <string />
+      </testCodes>
+    </TestElement>
+    <TestElement>
+      <testName>TestCase2</testName>
+      <testDriver>testdriver2.cs</testDriver>
+      <testCodes>
+        <string>testcode2.cs</string>
+        <string>Interface2.cs</string>
+        <string>dep2.cs</string>
+        <string />
+      </testCodes>
+    </TestElement>
+    <TestElement>
+      <testName>TestCase3</testName>
+      <testDriver>testdriver3.cs</testDriver>
+      <testCodes>
+        <string>testcode3.cs</string>
+        <string>Interface3.cs</string>
+        <string>dep3.cs</string>
+        <string />
+      </testCodes>
+    </TestElement>
+    <TestElement>
+      <testName>TestCase4</testName>
+      <testDriver>testdriver.cs</testDriver>
+      <testCodes>
+        <string>testcode.cs</string>
+        <string />
+      </testCodes>
+    </TestElement>
+  </tests>
+</TestRequest>

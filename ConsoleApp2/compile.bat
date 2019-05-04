@@ -1,0 +1,1 @@
+devenv BuildServerApp.sln /rebuild debug

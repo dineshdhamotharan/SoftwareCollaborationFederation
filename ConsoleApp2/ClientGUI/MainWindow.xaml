@@ -1,0 +1,44 @@
+﻿<Window x:Class="ClientGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientGUI"
+        mc:Ignorable="d"
+        Title="BuildServer 1.0" Height="650" Width="1024">
+    <Grid>
+        <Grid>
+            <TabControl>
+                <TabItem Header="Create and Process New Requests">
+                    <Grid HorizontalAlignment="Left" Height="413" Margin="10,10,0,0" VerticalAlignment="Top" Width="1000" Background="AliceBlue">
+                        <Grid HorizontalAlignment="Left" Height="65" Margin="10,338,0,0" VerticalAlignment="Top" Width="1000">
+                            <Button Name="createtest" Click="Createtest" Background="LightBlue" Content="Create Test" HorizontalAlignment="Left" Margin="53,19,0,0" VerticalAlignment="Top" Width="177" Height="36"/>
+                            <Button Name="createrequest" Click="Createrequest" Background="LightBlue" Content="Create Test Request" HorizontalAlignment="Left" Margin="393,19,0,0" VerticalAlignment="Top" Width="177" Height="36"/>
+                            <Button Name="processrequest" Click="processRequest" Background="LightBlue" Content="Process Test Requests" HorizontalAlignment="Left" Margin="726,19,0,0" VerticalAlignment="Top" Width="177" Height="36"/>
+                        </Grid>
+                        <ListBox Name="repo"  SelectionMode="Extended" MouseDoubleClick="Repo_MouseDoubleClick"  HorizontalAlignment="Left" Height="250" Margin="21,34,0,0" VerticalAlignment="Top" Width="270"/>
+                        <Button Name="browse" Click="Browse" Background="LightBlue" Content="Browse" HorizontalAlignment="Left" Margin="32,305,0,0" VerticalAlignment="Top" Width="116" Height="35" />
+                        <ListBox Name="test" HorizontalAlignment="Left" Height="250" Margin="359,34,0,0" VerticalAlignment="Top" Width="270"/>
+                        <ListBox Name="request" SelectionMode="Extended" MouseDoubleClick="NewReq_MouseDoubleClick" HorizontalAlignment="Left" Height="250" Margin="693,34,0,0" VerticalAlignment="Top" Width="270"/>
+                        <Button Name="delete" Click="DeleteNew" Background="LightBlue" Content="Delete Request" HorizontalAlignment="Left" Margin="738,305,0,0" VerticalAlignment="Top" Width="175" Height="35" />
+                        <Button Name="deleteCs" Click="DeleteCs" Background="LightBlue" Content="Delete" HorizontalAlignment="Left" Margin="171,305,0,0" VerticalAlignment="Top" Width="111" Height="35" />
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Process Existing Requests">
+                    <Grid HorizontalAlignment="Left" Height="413" Margin="10,10,0,0" VerticalAlignment="Top" Width="1000" Background="AliceBlue">
+                        <ListBox Name="repoXml" MouseDoubleClick="OldReq_MouseDoubleClick" SelectionMode="Extended" HorizontalAlignment="Left" Height="250" Margin="21,34,0,0" VerticalAlignment="Top" Width="273"/>
+                        <Button Name="processExisting" Click="ProcessExisting" Background="LightBlue" Content="Process Requests" HorizontalAlignment="Left" Margin="21,321,0,0" VerticalAlignment="Top" Width="130" Height="35" />
+                        <ListBox Name="notification" HorizontalAlignment="Left" Height="311" Margin="366,34,0,0" VerticalAlignment="Top" Width="565"/>
+                        <Button Name="deleteExisting" Click="DeleteExisting" Background="LightBlue" Content="Delete Request" HorizontalAlignment="Left" Margin="174,321,0,0" VerticalAlignment="Top" Width="129" Height="35" />
+                    </Grid>
+                </TabItem>
+            </TabControl>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Margin="10,462,0,10" Width="1000" Background="LightGray">
+            <Label Content="Number Of Processes :" HorizontalAlignment="Left" Margin="357,25,0,0" VerticalAlignment="Top" Height="29" Width="131"/>
+            <TextBox Name="process" HorizontalAlignment="Left" Height="20" Margin="526,30,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="48"/>
+            <Button Name="initiateComponents" Background="LightBlue" Click="InitiateComponents" Content="Initiate Components" HorizontalAlignment="Left" Margin="324,70,0,0" VerticalAlignment="Top" Width="145" Height="34"/>
+            <Button Name="kill" Background="LightBlue" Click="Kill" Content="Kill" HorizontalAlignment="Left" Margin="557,70,0,0" VerticalAlignment="Top" Width="93" Height="34" />
+        </Grid>
+    </Grid>
+</Window>

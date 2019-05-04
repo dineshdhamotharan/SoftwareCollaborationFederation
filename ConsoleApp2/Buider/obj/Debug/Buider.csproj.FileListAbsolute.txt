@@ -1,0 +1,7 @@
+c:\users\prakash\source\repos\ConsoleApp2\Buider\bin\Debug\Buider.exe.config
+c:\users\prakash\source\repos\ConsoleApp2\Buider\bin\Debug\Buider.exe
+c:\users\prakash\source\repos\ConsoleApp2\Buider\bin\Debug\Buider.pdb
+c:\users\prakash\source\repos\ConsoleApp2\Buider\obj\Debug\Buider.csprojResolveAssemblyReference.cache
+c:\users\prakash\source\repos\ConsoleApp2\Buider\obj\Debug\Buider.csproj.CoreCompileInputs.cache
+c:\users\prakash\source\repos\ConsoleApp2\Buider\obj\Debug\Buider.exe
+c:\users\prakash\source\repos\ConsoleApp2\Buider\obj\Debug\Buider.pdb

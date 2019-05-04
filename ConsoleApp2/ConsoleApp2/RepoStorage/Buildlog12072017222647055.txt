@@ -1,0 +1,33 @@
+Microsoft (R) Visual C# Compiler version 4.6.1586.0
+for C# 5
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+This compiler is provided as part of the Microsoft (R) .NET Framework, but only supports language versions up to C# 5, which is no longer the latest version. For compilers that support newer versions of the C# programming language, see http://go.microsoft.com/fwlink/?LinkID=533240
+
+error CS2001: Source file 'testdriver1.cs' could not be found
+
+Microsoft (R) Visual C# Compiler version 4.6.1586.0
+for C# 5
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+This compiler is provided as part of the Microsoft (R) .NET Framework, but only supports language versions up to C# 5, which is no longer the latest version. For compilers that support newer versions of the C# programming language, see http://go.microsoft.com/fwlink/?LinkID=533240
+
+
+Microsoft (R) Visual C# Compiler version 4.6.1586.0
+for C# 5
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+This compiler is provided as part of the Microsoft (R) .NET Framework, but only supports language versions up to C# 5, which is no longer the latest version. For compilers that support newer versions of the C# programming language, see http://go.microsoft.com/fwlink/?LinkID=533240
+
+
+Microsoft (R) Visual C# Compiler version 4.6.1586.0
+for C# 5
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+This compiler is provided as part of the Microsoft (R) .NET Framework, but only supports language versions up to C# 5, which is no longer the latest version. For compilers that support newer versions of the C# programming language, see http://go.microsoft.com/fwlink/?LinkID=533240
+
+testdriver.cs(7,23): error CS0246: The type or namespace name 'IDriver' could not be found (are you missing a using directive or an assembly reference?)
+testcode.cs(5,25): error CS0246: The type or namespace name 'ITestCode' could not be found (are you missing a using directive or an assembly reference?)
+testdriver.cs(17,13): error CS0246: The type or namespace name 'ITestCode' could not be found (are you missing a using directive or an assembly reference?)
+
+

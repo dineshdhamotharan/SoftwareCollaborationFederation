@@ -1,0 +1,7 @@
+
+    constructing instance of Test code
+    Production code - TestedLib
+    Testing Addition: 50+50:Expected result: 100  Actual result: 100
+
+  test passed
+------------------------------------------------

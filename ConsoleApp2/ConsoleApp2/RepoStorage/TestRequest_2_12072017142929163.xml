@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TestRequest>
+  <author>Dinesh</author>
+  <tests>
+    <TestElement>
+      <testName>TestCase2</testName>
+      <testDriver>testdriver2.cs</testDriver>
+      <testCodes>
+        <string>testcode2.cs</string>
+        <string>Interface2.cs</string>
+        <string>dep2.cs</string>
+        <string />
+      </testCodes>
+    </TestElement>
+  </tests>
+</TestRequest>

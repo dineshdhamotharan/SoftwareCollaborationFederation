@@ -1,0 +1,14 @@
+C:\Users\Prakash\source\repos\ConsoleApp2\Serialization\bin\Debug\Serialization.exe.config
+C:\Users\Prakash\source\repos\ConsoleApp2\Serialization\bin\Debug\Serialization.exe
+C:\Users\Prakash\source\repos\ConsoleApp2\Serialization\bin\Debug\Serialization.pdb
+C:\Users\Prakash\source\repos\ConsoleApp2\Serialization\obj\Debug\Serialization.csprojResolveAssemblyReference.cache
+C:\Users\Prakash\source\repos\ConsoleApp2\Serialization\obj\Debug\Serialization.csproj.CoreCompileInputs.cache
+C:\Users\Prakash\source\repos\ConsoleApp2\Serialization\obj\Debug\Serialization.exe
+C:\Users\Prakash\source\repos\ConsoleApp2\Serialization\obj\Debug\Serialization.pdb
+C:\New\586563818_SMA\ConsoleApp2\Serialization\bin\Debug\Serialization.exe.config
+C:\New\586563818_SMA\ConsoleApp2\Serialization\bin\Debug\Serialization.exe
+C:\New\586563818_SMA\ConsoleApp2\Serialization\bin\Debug\Serialization.pdb
+C:\New\586563818_SMA\ConsoleApp2\Serialization\obj\Debug\Serialization.csprojResolveAssemblyReference.cache
+C:\New\586563818_SMA\ConsoleApp2\Serialization\obj\Debug\Serialization.csproj.CoreCompileInputs.cache
+C:\New\586563818_SMA\ConsoleApp2\Serialization\obj\Debug\Serialization.exe
+C:\New\586563818_SMA\ConsoleApp2\Serialization\obj\Debug\Serialization.pdb
